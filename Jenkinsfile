@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Clonando repositorio...'
-                git branch: 'master', url: 'https://github.com/webdesigner98everyone/taskflow.git'
+                git branch: 'master', url: 'https://github.com/webdesigner98everyone/proyecto_Integracion_continua.git'
             }
         }
 
